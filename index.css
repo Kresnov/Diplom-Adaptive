@@ -438,7 +438,7 @@
   }
 
   .others_be_active_img {
-    width: 320px;
+    width: 100%;
   }
 
 
@@ -452,8 +452,8 @@
     width: 70px;
     background-color: #5e42b0;
    
-    margin-top: 290px;
-    margin-left: 6.25%;
+    top: 82%;
+    left: 6.25%;
   }
 
   .others_be_active_box_01 {
@@ -492,10 +492,11 @@
   .others_find_contact_picture_box {
     display: flex;
     position: relative;
+
   }
 
   .others_find_contact_img {
-    width: 320px;
+    width: 100%;
   }
 
   .others_find_contact_box {
@@ -508,8 +509,8 @@
     width: 70px;
     background-color: #5e42b0;
    
-    margin-top: 290px;
-    margin-left: 6.25%;
+    top: 82%;
+    left: 6.25%;
   }
 
   .others_find_contact_box_01 {
@@ -551,7 +552,7 @@
   }
 
   .others_work_it_img {
-    width: 320px;
+    width: 100%;
   }
 
   .others_work_it_box {
@@ -565,8 +566,8 @@
     width: 70px;
     background-color: #5e42b0;
     
-    margin-top: 290px;
-    margin-left: 6.25%;
+    top: 82%;
+    left: 6.25%;
   }
 
   .others_work_it_box_01 {
@@ -771,7 +772,7 @@
     flex-direction:column;
   
     margin:auto;
-  }
+    }
 
   .header {
     position: relative;
@@ -854,8 +855,7 @@
     height:75px;
     
     margin-top:15px;
-    margin-left: 55px;
-    margin-right: 20px;
+
     
     font-size:1.4rem;
     font-family: "OpenSans";
@@ -898,8 +898,8 @@
     height:75px;
     
     margin-top: 15px;
-    margin-left: 25px;
-    margin-right: 20px;
+    margin-left: 7%;
+
     
     font-size:14px;
     font-family: "OpenSans";
@@ -1085,6 +1085,7 @@
     
     padding-right: 350px;
     margin-top: 50px;
+    padding-left: 30px;
   }
 
   .players_connection_title {
@@ -1101,7 +1102,6 @@
     color:black;
     
     margin-top: px;
-    margin-left: 30px;
     border-bottom: solid #5e42b0;
   }
 
@@ -1111,7 +1111,6 @@
     font-weight: bolder;
     color:#000000;
     
-    margin-left: 30px;
     margin-right: 15px;
     margin-top: 18px;
   }
@@ -1120,7 +1119,7 @@
     height:180px;
     
     padding-right: 350px;
-    
+    padding-left: 30px;
     background-color: #f5f4f9;
   }
 
@@ -1139,7 +1138,6 @@
     text-transform: uppercase;
     color:black;
     
-    margin-left: 30px;
     border-bottom: solid #5e42b0;
   }
 
@@ -1149,7 +1147,6 @@
     font-weight: bolder;
     color:#000000;
     
-    margin-left: 30px;
     margin-right: 20px;
     margin-top: 18px;
   }
@@ -1158,7 +1155,7 @@
     height:180px;
     
     padding-right: 300px;
-    
+    padding-left: 30px;
     background-color: #090c35;
   }
 
@@ -1177,7 +1174,6 @@
     text-transform: uppercase;
     color: #7155bd;
     
-    margin-left: 20px;
     border-bottom: solid #ffffff;
   }
 
@@ -1187,7 +1183,6 @@
     font-weight: bolder;
     color:#ffffff;
     
-    margin-left: 20px;
     margin-right: 20px;
     margin-top: 18px;
   }
@@ -1225,8 +1220,8 @@
     width: 117px;
     background-color: #5e42b0;
    
-    margin-top: 500px;
-    margin-left: 35px;
+    margin-top: 65%;
+    margin-left: 4.5%;
   }
 
   .others_be_active_box_01 {
@@ -1269,7 +1264,7 @@
   }
 
   .others_find_contact_img {
-    width: 768px;
+    width: 100%;
   }
 
   .others_find_contact_box {
@@ -1282,8 +1277,8 @@
     width: 117px;
     background-color: #5e42b0;
    
-    margin-top: 500px;
-    margin-left: 35px;
+    margin-top: 65%;
+    margin-left: 4.5%;
   }
 
   .others_find_contact_box_01 {
@@ -1326,7 +1321,8 @@
   }
 
   .others_work_it_img {
-    width: 768px;
+    width: 100%
+    ;
   }
 
   .others_work_it_box {
@@ -1340,8 +1336,8 @@
     width: 117px;
     background-color: #5e42b0;
     
-    margin-top: 500px;
-    margin-left: 35px;
+    margin-top: 65%;
+    margin-left: 4.5%;
   }
 
   .others_work_it_box_01 {
@@ -1418,7 +1414,7 @@
     display:flex;
     flex-direction:column;
     
-    height:955px;  
+    height:auto;
   }
 
   .footer_app {
@@ -1484,9 +1480,7 @@
     
     width:310px;
     height:75px;
-    
-    margin-left: 55px;
-    margin-right: 20px;
+     
     
     font-size:14px;
     font-family: "OpenSans";
@@ -1517,8 +1511,7 @@
     width:310px;
     height:75px;
     
-    margin-left: 25px;
-    margin-right: 20px;
+    margin-left: 7%; 
     
     font-size:14px;
     font-family: "OpenSans";
@@ -1546,7 +1539,7 @@
     
 }
 
-@media (min-width:961px) and (max-width:1920px) {
+@media (min-width:961px) {
   body {
     display: flex;
     flex-direction:column;
@@ -1610,11 +1603,11 @@
   }
 
   .header_text_first {
-    margin-left: 180px;
+    margin-left: 9%;
   }
 
   .header_text_second {
-    margin-left: 640px;
+    margin-left: 33%;
     text-align: left;
   }
 
@@ -1719,14 +1712,14 @@
     color:#e7e7e7;
     align-items:right;
     
-    margin-left:1000px;
+    margin-left:50vw;
     margin-top:70px;
     margin-bottom:0px;
   }
 
   .connection {
-    height:140px;
-    padding-left: 1000px;
+      padding-left: 50vw;
+      padding-bottom: 50px;
     
       margin-top: 100px;
       margin-right: 195px;
@@ -1769,11 +1762,11 @@
   }
 
   .collaboration {
-    height:238px;
     background-color: #f5f4f9;
     
-    padding-left: 1000px;
+    padding-left: 50vw;
     padding-right: 195px;
+    padding-bottom: 50px;
   }
 
   .collaboration_title {
@@ -1805,12 +1798,11 @@
   }
 
   .growth {
-    height:180px;
     background-color: #5e42b0;
     
-    padding-left: 1000px;
+    padding-left: 50vw;
     padding-right: 195px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
   }
 
   .growth_title {
@@ -1843,11 +1835,11 @@
   }
 
   .athlets_img {
-    height:926px;
+    height: 77%;
     position: absolute;
     
     margin-top:25px;
-    margin-left:380px;
+    right:55%;
   }
 
   .players_img {
@@ -1855,7 +1847,7 @@
     
     margin-top:15px;
     margin-bottom: 33px;
-    right:100px;
+    left:43%;
   }
 
 
@@ -1866,11 +1858,11 @@
   }
 
   .players_connection {
-    height:200px;
     
-    padding-right: 970px;
+    padding-right: 50vw;
     margin-top: 80px;
     margin-left: 190px;
+    padding-bottom: 50px;
   }
 
   .players_connection_title {
@@ -1902,10 +1894,9 @@
   }
 
   .players_collaboration {
-    height:230px;
     
-    padding-right: 970px;
-    
+    padding-right: 50vw;
+    padding-bottom: 50px;
     padding-left: 190px;
     
     background-color: #f5f4f9;
@@ -1942,11 +1933,11 @@
   }
 
   .players_growth {
-    height:200px;
     
-    padding-right: 970px;
+    padding-right: 50vw;
     padding-left: 190px;
-    
+    padding-bottom: 50px;
+
     background-color: #090c35;
   }
 
@@ -2014,8 +2005,8 @@
     width: 165px;
     background-color: #5e42b0;
    
-    margin-top: 205px;
-    margin-left: 870px;
+    top: 30%;
+    left: 90%;
   }
 
   .others_be_active_box_01 {
@@ -2030,6 +2021,7 @@
     
   .others_be_active_header_text {
     width: 50vw;
+    margin-top: 13%;
   }
 
   .others_be_active_header {
@@ -2039,7 +2031,6 @@
     text-transform: uppercase;
     color:#e7e7e7;
     
-    padding-top: 225px;
     padding-left: 125px;
   }
 
@@ -2059,13 +2050,15 @@
   .others_find_contact {
     display: flex;
     flex-direction: row;
-    }
+    width: 100vw;
+  }
     
   .others_find_contact_picture_box {
     display: flex;
     position: relative;
     
     order:3;
+    width: 50vw;
   }
 
   .others_find_contact_img {
@@ -2083,8 +2076,8 @@
     width: 165px;
     background-color: #5e42b0;
    
-    margin-top: 205px;
-    margin-left: -85px;
+    top: 30%;
+    right: 90%;
   }
 
   .others_find_contact_box_01 {
@@ -2099,6 +2092,8 @@
 
   .others_find_contact_header_text {
     width: 50vw;
+    margin-top: 13%;
+    margin-left: 10%;
   }
     
   .others_find_contact_header {
@@ -2108,8 +2103,7 @@
     text-transform: uppercase;
     color:#e7e7e7;
     
-    padding-top: 225px;
-    padding-left: 190px;
+    padding-right: 13%;
   }
 
   .others_find_contact_text {
@@ -2120,7 +2114,6 @@
     letter-spacing:2px;
     
     padding-top: 80px;
-    padding-left: 190px;
     padding-right: 35px;
     padding-bottom: 80px;
   }
@@ -2150,8 +2143,8 @@
     width: 165px;
     background-color: #5e42b0;
    
-    margin-top: 205px;
-    margin-left: 870px;
+    top: 30%;
+    left: 90%;
   }
 
   .others_work_it_box_01 {
@@ -2164,6 +2157,11 @@
     border-bottom:solid #8f7bc8;
   }
 
+  .others_work_it_header_text {
+    width: 50vw;
+    margin-top: 13%;
+  }
+
   .others_work_it_header {
     font-size:80px;
     font-family: "OpenSans-bold";
@@ -2171,7 +2169,6 @@
     text-transform: uppercase;
     color:#e7e7e7;
     
-    padding-top: 225px;
     padding-left: 125px;
   }
 
@@ -2218,7 +2215,7 @@
     display:flex;
     flex-direction:column;
     
-    height:955px;
+    height:auto;
   }
 
   .footer_app_text {
