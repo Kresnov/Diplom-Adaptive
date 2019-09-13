@@ -1627,8 +1627,6 @@
     height:75px;
     
     margin-top:15px;
-    margin-left: 55px;
-    margin-right: 20px;
     
     font-size:1.4rem;
     font-family: "OpenSans";
@@ -1672,7 +1670,6 @@
     
     margin-top: 15px;
     margin-left: 25px;
-    margin-right: 20px;
     
     font-size:14px;
     font-family: "OpenSans";
@@ -1720,8 +1717,7 @@
   .connection {
       padding-left: 50vw;
       padding-bottom: 50px;
-    
-      margin-top: 100px;
+      padding-top: 60px;
       margin-right: 195px;
   }
 
@@ -1767,13 +1763,13 @@
     padding-left: 50vw;
     padding-right: 195px;
     padding-bottom: 50px;
+    padding-top: 60px;
   }
 
   .collaboration_title {
     display: flex;
     align-items: center;
     
-    padding-top: 40px;
   }
 
   .collaboration_title_number {
@@ -1803,14 +1799,13 @@
     padding-left: 50vw;
     padding-right: 195px;
     padding-bottom: 50px;
+    padding-top: 60px;
   }
 
   .growth_title {
     display: flex;
     
     align-items: center;
-    
-    padding-top: 40px;
   }
 
   .growth_title_number {
@@ -1835,7 +1830,6 @@
   }
 
   .athlets_img {
-    height: 77%;
     position: absolute;
     
     margin-top:25px;
@@ -1858,10 +1852,11 @@
   }
 
   .players_connection {
-    
-    padding-right: 50vw;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 190px;
+
+    padding-right: 50vw;
+    padding-top: 60px;
     padding-bottom: 50px;
   }
 
@@ -1898,6 +1893,7 @@
     padding-right: 50vw;
     padding-bottom: 50px;
     padding-left: 190px;
+    padding-top: 60px;
     
     background-color: #f5f4f9;
   }
@@ -1906,7 +1902,6 @@
     display: flex;
     align-items:center;
    
-    padding-top: 40px;
   }
 
   .players_collaboration_title_number {
@@ -1937,6 +1932,7 @@
     padding-right: 50vw;
     padding-left: 190px;
     padding-bottom: 50px;
+    padding-top: 60px;
 
     background-color: #090c35;
   }
@@ -1945,7 +1941,6 @@
     display: flex;
     align-items:center;
     
-    padding-top:30px;
   }
 
   .players_growth_title_number {
@@ -1985,14 +1980,10 @@
   .others_be_active_picture_box {
     display: flex;
     position: relative;
-    
-    width: 50vw;
   }
 
   .others_be_active_img {
     width: 50vw;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .others_be_active_box {
@@ -2006,7 +1997,8 @@
     background-color: #5e42b0;
    
     top: 30%;
-    left: 90%;
+    right: 0%;
+    transform: translateX(50%);
   }
 
   .others_be_active_box_01 {
@@ -2020,12 +2012,12 @@
   }
     
   .others_be_active_header_text {
-    width: 50vw;
+    width: 50%;
     margin-top: 13%;
   }
 
   .others_be_active_header {
-    font-size:80px;
+    font-size:4vw;
     font-family: "OpenSans-bold";
     font-weight: bolder;
     text-transform: uppercase;
@@ -2035,16 +2027,16 @@
   }
 
   .others_be_active_text {
-    font-size: 24px;
+    font-size: 1.25vw;
     font-family: "OpenSans";
     font-weight: bolder;
     color:#000000;
     letter-spacing:2px;
     
-    padding-top: 80px;
+    padding-top: 5vw;
     padding-left: 125px;
-    padding-right: 194px;
-    padding-bottom: 70px;
+    padding-right: 10vw;
+    padding-bottom: 3.6vw;
   }
 
   .others_find_contact {
@@ -2077,7 +2069,8 @@
     background-color: #5e42b0;
    
     top: 30%;
-    right: 90%;
+    left: 0%;
+    transform: translateX(-50%);
   }
 
   .others_find_contact_box_01 {
@@ -2093,11 +2086,11 @@
   .others_find_contact_header_text {
     width: 50vw;
     margin-top: 13%;
-    margin-left: 10%;
+    padding-left: 10%;
   }
     
   .others_find_contact_header {
-    font-size:80px;
+    font-size:4vw;
     font-family: "OpenSans-bold";
     font-weight: bolder;
     text-transform: uppercase;
@@ -2107,15 +2100,15 @@
   }
 
   .others_find_contact_text {
-    font-size: 24px;
+    font-size: 1.25vw;
     font-family: "OpenSans";
     font-weight: bolder;
     color:#000000;
     letter-spacing:2px;
     
-    padding-top: 80px;
-    padding-right: 35px;
-    padding-bottom: 80px;
+    padding-top: 5vw;
+    padding-right: 70px;
+    padding-bottom: 4vw;
   }
 
   .others_work_it {
@@ -2144,7 +2137,8 @@
     background-color: #5e42b0;
    
     top: 30%;
-    left: 90%;
+    right: 0%;
+    transform: translateX(50%);
   }
 
   .others_work_it_box_01 {
@@ -2163,7 +2157,7 @@
   }
 
   .others_work_it_header {
-    font-size:80px;
+    font-size:4vw;
     font-family: "OpenSans-bold";
     font-weight: bolder;
     text-transform: uppercase;
@@ -2173,16 +2167,16 @@
   }
 
   .others_work_it_text {
-    font-size: 24px;
+    font-size: 1.25vw;
     font-family: "OpenSans";
     font-weight: bolder;
     color:#000000;
     letter-spacing:2px;
     
-    padding-top: 80px;
+    padding-top: 5vw;
     padding-left: 125px;
-    padding-right: 194px;
-    padding-bottom: 70px;
+    padding-right: 10vw;
+    padding-bottom: 3.6vw;
   }
 
   .footer {
@@ -2275,6 +2269,7 @@
     margin-top: 250px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     fill:#ffffff;
   }
 
